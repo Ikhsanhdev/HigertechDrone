@@ -907,11 +907,25 @@ section,
   font-size: 16px;
   letter-spacing: 1px;
   padding: 12px 24px;
-  border-radius: 5px;
+  border-radius: 10px;
   transition: 0.3s;
   display: inline-flex;
   align-items: center;
   justify-content: center;
+}
+
+.about .content .brochure-btn {
+  font-family: var(--heading-font);
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  padding: 11px 24px;
+  border-radius: 10px;
+  transition: 0.3s;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 2px;
 }
 
 .about .content .read-more i {
@@ -1029,7 +1043,7 @@ section,
 # Call To Action Section
 --------------------------------------------------------------*/
 .call-to-action {
-  padding: 80px 0;
+  padding: 100px 0;
   position: relative;
   clip-path: inset(0);
 }
@@ -1059,7 +1073,7 @@ section,
 }
 
 .call-to-action h3 {
-  font-size: 28px;
+  font-size: 36px;
   font-weight: 700;
   color: var(--default-color);
 }
